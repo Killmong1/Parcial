@@ -5,7 +5,7 @@ Elkin Benitez
 Para ejecución de los puntos 1, 2, 3:
 ----------------------------
 Punto1:
-AFD en Python
+AFD en awk
 Luego de ubicarse en la ruta del fichero se procede con las siguiente líneas de código:
 python3 AFD.py <expresion_regular>
 
