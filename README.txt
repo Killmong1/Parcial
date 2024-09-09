@@ -7,13 +7,10 @@ Para ejecución de los puntos 1, 2, 3:
 Punto1:
 AFD en awk
 Luego de ubicarse en la ruta del fichero se procede con las siguiente líneas de código:
-python3 AFD.py <expresion_regular>
+chmod +x AFD.awk
+./AFD.awk a.txt
+a.txt -> archivo con expresiones
 
-ej: 
-python3 AFD.py +
-python3 AFD.py ++
-python3 AFD.py 123
-python3 AFD.py 1.0
 -----------------------------------------------------------------------------------------
 Punto2:
 flex -o lex.yy.c punto2.l → Genera el archivo lex.yy.c para tokenizar la entrada
